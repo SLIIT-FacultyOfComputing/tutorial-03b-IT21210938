@@ -1,7 +1,12 @@
 #include <iostream>
 using namespace std;
 
-int volume(int height, int width, int length);
+float volume(float length, float width, float height)
+{
+  float v;
+  v= length*width*height;
+  return v;
+}
 
 int main() {
     int box1Height, box1Width, box1Length;
